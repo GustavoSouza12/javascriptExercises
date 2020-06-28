@@ -1,0 +1,1 @@
+program that display the current day and time.
