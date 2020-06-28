@@ -1,0 +1,1 @@
+1- method Math.sqrt is used to return square root of a number 

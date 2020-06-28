@@ -1,0 +1,10 @@
+1- 	new Date()
+	new Date(value)
+	new Date(dateString)
+	new Date(year, monthIndex [, day [, hours [, minutes [, seconds [, milliseconds]]]]])
+
+2-getDay(), getMonth(), getFullYear()
+3-getHours(), getMinutes(), getSeconds()
+
+
+	
