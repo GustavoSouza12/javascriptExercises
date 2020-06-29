@@ -1,0 +1,1 @@
+onload = execute one function when the web page has completely loaded
