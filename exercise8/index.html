@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Show what day is and current time</title>
+        <style>
+            input{
+                margin: 5px;
+            }
+            p{
+                font-size: 1.2rem;
+            }
+            div{
+                font-size: 1.2rem;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <p>1º number</p><input id="number1" type="text" placeholder="set the first number"><br>
+            <p>2º number</p><input id="number2" type="text" placeholder="set the second number"><br>
+            <input type="button" onclick="multiply()" Value="Multiply">
+            <input type="button" onclick="divide()" Value="Divide">
+            <br>
+            Result: <div id="result"></div>
+        </form>
+        <script src="app.js"></script>
+    </body>
+</html>
