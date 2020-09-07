@@ -1,10 +1,8 @@
-var d = new Date()
-var mm = d.getDate()
-var dd = d.getMonth()+1
-var yyyy = d.getFullYear()
+let newDate = new Date();
+let d = newDate.getDate();
+let m = newDate.getMonth()+1;
+let y = newDate.getFullYear();
 
+let todayDate = `today date is: ${d}/${m}/${y}`
 
-
-let today =mm+'-'+dd+'-'+yyyy+"<br>"+mm+'/'+dd+'/'+yyyy; 
-
-document.write(today)
+document.write(todayDate)
